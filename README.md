@@ -130,7 +130,7 @@ downloads and launches the docker container for elk server
           - 9200:9200
           - 5044:5044
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-
+https://user-images.githubusercontent.com/85316952/133170944-7dfc2c62-e7a1-4d28-937d-611b14d3ffc3.png
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 Web 1 (10.0.0.5)
