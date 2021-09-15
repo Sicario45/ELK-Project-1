@@ -131,7 +131,7 @@ downloads and launches the docker container for elk server
           - 5044:5044
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 https://user-images.githubusercontent.com/85316952/133170944-7dfc2c62-e7a1-4d28-937d-611b14d3ffc3.png
-Target Machines & Beats
+Target Machines & Beats:
 This ELK server is configured to monitor the following machines:
 Web 1 (10.0.0.5)
 Web 2 (10.0.0.6)
@@ -141,7 +141,7 @@ Metric Beat
 These Beats allow us to collect the following information from each machine:
 Filebeat is a log data shipper for local files. Installed as an agent on your servers, Filebeat monitors the log directories or specific log files, tails the files, and forwards them either to Elasticsearch or Logstash for indexing. An example of such are the logs produced from the MySQL database supporting our application.
 Metricbeat collects metrics and statistics on the system. An example of such is cpu usage, which can be used to monitor the system health.
-Using the Playbook
+Using the Playbook:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 SSH into the control node and follow the steps below:
 Copy the configuration file from your Ansible container to your Web VM's
